@@ -147,31 +147,82 @@ nav a:hover{
 }
 
 .container{
-    height: 15px;
-    width: 200px;
+    height: 20px;
+    width: 300px;
     background-color: #8f8d8d;
     border-radius: 15px;
-    margin-left: 100px;
+    margin-left: 10px;
+    margin-top: 0px;
 }
 .parent{
-    height: 15px;
-    width: 150px;
+    height: 20px;
+    width: 40px;
     background-color: aqua;
     border-radius: 15px;
     position: absolute;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
 }
-.skill_h1{
+.skill_box1{
+    height: 45vh;
+    width: 25vw;
+    background-color: rgb(77, 78, 78);
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 130px;
+    text-align: left;
+}
+.skill_box2{
+    height: 45vh;
+    width: 25vw;
+    background-color: rgb(77, 79, 82);
+    border-radius: 10px;
+    margin-top: 130px;
+    text-align: left;
+    margin-left: 20px;
+}
+.skill_box3{
+    height: 45vh;
+    width: 25vw;
+    background-color: rgb(77, 79, 82);
+    border-radius: 10px;
+    margin-top: 130px;
+    text-align: left;
+}
+.skill_box1:hover{
+    transition: transform 1.5s, background 1.5s;
+    transform: translateY(-15px);
+    background-color: #3a8f9b;
+}
+.skill_box2:hover{
+    transition: transform 1.5s, background 1.5s;
+    transform: translateY(-15px);
+    background-color: #3a8f9b;
+}
+.skill_box3:hover{
+    transition: transform 1.5s, background 1.5s;
+    transform: translateY(-15px);
+    background-color: #3a8f9b;
+}
+#skill div div h1{
     color: rgb(255, 255, 255);
-    margin-left:110px ;
+    margin-left:20px ;
     margin-top: 10px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#about{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+#skill div h2{
+    color: rgb(163, 163, 163);
+    margin-left:15px ;
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#skill div div img{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 #about div img{
     height: 300px;
@@ -194,18 +245,18 @@ nav a:hover{
 #about div button{
     background-color: aqua;
     margin-left: 100px;
-    height: 40px;
-    width: 150px;
+    height: 35px;
+    width: 120px;
     margin-top: 20px;
     border-radius: 10px;
-    font-size: 20px;
+    border: none;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #about div button:hover{
     transform: translateY(-10px);
     transition: transform 1s, background 1s;
 }
-/* Contact Section */
 .contact_h1 {
   color: aqua;
   font-size: 40px;
