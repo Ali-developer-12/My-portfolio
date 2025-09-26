@@ -147,15 +147,15 @@ nav a:hover{
 }
 
 .container{
-    height: 25px;
-    width: 400px;
+    height: 15px;
+    width: 200px;
     background-color: #8f8d8d;
     border-radius: 15px;
     margin-left: 100px;
 }
 .parent{
-    height: 25px;
-    width: 250px;
+    height: 15px;
+    width: 150px;
     background-color: aqua;
     border-radius: 15px;
     position: absolute;
